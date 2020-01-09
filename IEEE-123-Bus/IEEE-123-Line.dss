@@ -122,8 +122,8 @@ New "Line.sw3" bus1=18 bus2=135 length=0.001 r1=0.001 x1=0 C1=0 phases=1 normamp
 New "Line.sw4" bus1=60 bus2=160 length=0.001 r1=0.001 x1=0 C1=0 phases=1 normamps=400 emergamps=600 units=none
 New "Line.sw5" bus1=97 bus2=197 length=0.001 r1=0.001 x1=0 C1=0 phases=1 normamps=400 emergamps=600 units=none
 New "Line.sw6" bus1=61 bus2=61s length=0.001 r1=0.001 x1=0 C1=0 phases=1 normamps=400 emergamps=600 units=none
-New "Line.sw7" bus1=151 bus2=300_open length=0.001 r1=0.001 x1=0 C1=0 phases=1 normamps=400 emergamps=600 units=none
-New "Line.sw8" phases=1 bus1=54 bus2=94_open r1=0.001 r0=0.001 x1=0 x0=0 C1=0 C0=0 length=0.001
+!New "Line.sw7" bus1=151 bus2=300_open length=0.001 r1=0.001 x1=0 C1=0 phases=1 normamps=400 emergamps=600 units=none
+!New "Line.sw8" phases=1 bus1=54 bus2=94_open r1=0.001 r0=0.001 x1=0 x0=0 C1=0 C0=0 length=0.001
 
 !New "Line.reg1a"  Phases=1 Bus1=150    Bus2=150r r1=0.0001 x1=.0001  c1=0.000 				!windings=2 Xhl=0.001 %loadloss=1E-005 ppm_antifloat=0 phases=1 conns=[wye, wye, ] buses=[150, 150r, ] kVs=[2.4018, 2.4018, ] kVAs=[1666.7, 1666.7, ] normhkVA=1833.3 emerghkVA=2500
 New "Line.xfm1"  Phases=1 Bus1=61s    Bus2=610 r1=0.0001 x1=.0001  c1=0.000 				!windings=2 Xhl=2.72 buses=[61s, 610, ] conns=[wye, wye, ] kVs=[2.4018, 0.27713, ] kVAs=[50, 50, ] taps=[1, 1, ] wdg=1 %R=0.635 wdg=2 %R=0.635 phases=1 conns=[wye, wye, ] buses=[61s, 610, ] kVs=[2.4018, 0.27713, ] kVAs=[50, 50, ] normhkVA=55 emerghkVA=75

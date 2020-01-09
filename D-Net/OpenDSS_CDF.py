@@ -192,7 +192,7 @@ class Data:
 if __name__ == '__main__':
 
     # Change the following path to your OpenDSS Master File
-    d1 = Data(fr"C:\Users\Auser\Desktop\Shiva\D-OPF\IEEE-123-Bus\Master-IEEE-123.dss")
+    d1 = Data(fr"C:\Users\rahul\Desktop\D-OPF\IEEE-123-Bus\Master-IEEE-123.dss")
     f1 = open("ieee123_Elements.txt","r")
     f2 = open("ieee123_Buses.txt","r")
     d1.Extract_Data(f1, f2)
